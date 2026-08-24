@@ -71,9 +71,10 @@ Table relationships were built directly in Power BI's Model view (star-schema sh
 ## Repository Contents
 
 ```
-├── data/               # Cleaned source CSVs (categories, products, customers, orders, order_details)
-├── dashboard.pbix       # Power BI dashboard file
-├── screenshots/         # Dashboard preview images
+├── Clean_Data/               # Cleaned source CSVs (categories, products, customers, orders, order_details)
+├── Raw_Data/               # Raw source CSVs (categories, products, customers, orders, order_details)
+├── RetailSales.pbix       # Power BI dashboard file
+├── Dashboard.png         # Dashboard preview images
 └── README.md
 ```
 
@@ -84,3 +85,4 @@ Table relationships were built directly in Power BI's Model view (star-schema sh
 - Potential future addition: connecting the model to a relational database (MySQL) instead of flat files, for enforced referential integrity
 
 ## Dashboard
+![Dashboard Preview](Dashboard.png)
